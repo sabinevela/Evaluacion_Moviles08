@@ -40,7 +40,7 @@ export default function Screen1() {
       color,
     })
     .then(() => {
-      Alert.alert('Registro exitoso', 'El auto ha sido agregado correctamente.', [
+      Alert.alert('¡Bien!', 'El registro a sido agregado:)', [
         { text: 'OK', onPress: () => navigation.navigate('Screen2') }
       ]);
       setMarca('');
@@ -49,7 +49,7 @@ export default function Screen1() {
       setColor('');
     })
     .catch(() => {
-      Alert.alert('Error', 'Hubo un problema al registrar el auto.');
+      Alert.alert('¡Algo fallo!', 'Hubo un problema guardarse el registro:(');
     });
   };
 
@@ -59,7 +59,7 @@ export default function Screen1() {
       style={styles.container}
     >
       <View style={styles.innerContainer}>
-        <Text style={styles.title}>Registro de Autos</Text>
+        <Text style={styles.title}>Registra tu Auto!</Text>
 
         <TextInput
           style={styles.input}

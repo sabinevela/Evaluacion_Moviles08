@@ -56,7 +56,7 @@ export default function PantallaBuscarRegistro() {
         onChangeText={setIdRegistro}
       />
       <TouchableOpacity style={estilos.boton} onPress={buscarRegistroPorId}>
-        <Text style={estilos.textoBoton}>Buscar Registro</Text>
+        <Text style={estilos.textoBoton}>Encuentra tu Registro!</Text>
       </TouchableOpacity>
 
       {registro && <Informacion data={registro} />}

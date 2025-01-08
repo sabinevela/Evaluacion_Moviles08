@@ -15,8 +15,9 @@ export default function PantallaBienvenida() {
       style={estilos.contenedor}
     >
       <View style={estilos.contenedorInterno}>
-        <Text style={estilos.titulo}>SABINE VELA</Text>
-        <Text style={estilos.subtitulo}>¡Bienvenidos!</Text>
+        <Text style={estilos.titulo}>BIENVENIDOS</Text>
+        <Text style={estilos.subtitulo}>Sabine Vela</Text>
+        <Text style={estilos.subtitulo}>Evaluacion Moviles</Text>
         <TouchableOpacity style={estilos.boton} onPress={manejarInicio}>
           <Text style={estilos.textoBoton}>Siguiente</Text>
         </TouchableOpacity>
@@ -36,53 +37,55 @@ const estilos = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: 'rgba(0, 0, 0, 0.6)',
-    borderRadius: 20,
-    padding: 30,
+    borderRadius: 25,
+    padding: 40,
     width: '80%',
     shadowColor: '#000',
-    shadowOffset: { width: 0, height: 10 },
-    shadowOpacity: 0.25,
-    shadowRadius: 10,
-    elevation: 5,
+    shadowOffset: { width: 0, height: 15 },
+    shadowOpacity: 0.35,
+    shadowRadius: 15,
+    elevation: 8,
   },
   titulo: {
-    fontSize: 36,
+    fontSize: 30,
     fontWeight: 'bold',
     color: '#fff',
     textAlign: 'center',
-    marginBottom: 10,
+    marginBottom: 12,
     shadowColor: 'black',
-    shadowOffset: { width: 0, height: 10 },
-    shadowOpacity: 0.25,
-    shadowRadius: 10,
-    elevation: 5,
+    shadowOffset: { width: 0, height: 5 },
+    shadowOpacity: 0.3,
+    shadowRadius: 5,
+    elevation: 4,
   },
   subtitulo: {
-    fontSize: 20,
+    fontSize: 17,
     color: '#fff',
     textAlign: 'center',
-    marginTop: 10,
+    marginTop: 5,
+    fontStyle: 'italic',
   },
   boton: {
-    marginTop: 20,
-    backgroundColor: 'red',
-    paddingVertical: 12,
-    paddingHorizontal: 50,
-    borderRadius: 30,
-    elevation: 10,
+    marginTop: 25,
+    backgroundColor: '#d02c37',
+    paddingVertical: 14,
+    paddingHorizontal: 60,
+    borderRadius: 50,
+    elevation: 12,
     shadowColor: 'white',
     shadowOffset: { width: 0, height: 5 },
     shadowOpacity: 0.5,
-    shadowRadius: 10,
+    shadowRadius: 12,
   },
   textoBoton: {
-    fontSize: 18,
+    fontSize: 15,
     fontWeight: 'bold',
     color: '#fff',
     textAlign: 'center',
     textTransform: 'uppercase',
   },
 });
+
 
 
 
