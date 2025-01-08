@@ -46,7 +46,7 @@ export default function PantallaBuscarRegistro() {
 
   return (
     <ImageBackground
-      source={{ uri: 'https://i.pinimg.com/736x/7a/a6/f7/7aa6f7e67feff1671d7740fdf6f893e5.jpg' }} 
+      source={{ uri: 'https://i.pinimg.com/736x/c9/7d/6a/c97d6a77305b8b20aeca9bf65b85164d.jpg' }} 
       style={estilos.contenedor}
     >
       <TextInput
@@ -85,7 +85,7 @@ const estilos = StyleSheet.create({
     borderRadius: 5,
   },
   boton: {
-    backgroundColor: '#f7626c',
+    backgroundColor: '#d02c37',
     padding: 10,
     borderRadius: 5,
   },

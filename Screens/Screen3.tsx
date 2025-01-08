@@ -84,7 +84,7 @@ export default function PantallaEditarRegistro({ route }: { route: any }) {
 
   return (
     <ImageBackground
-      source={{ uri: 'https://i.pinimg.com/736x/7d/e0/ed/7de0ed522ba075f5d9a6431d81c63283.jpg' }} 
+      source={{ uri: 'https://i.pinimg.com/736x/2e/fb/5c/2efb5c89b5d5bce7fcdb491b06537d58.jpg' }} 
       style={estilos.contenedor}
     >
       <View style={estilos.contenedorInterno}>
@@ -167,9 +167,9 @@ const estilos = StyleSheet.create({
   },
   boton: {
     marginTop: 10,
-    backgroundColor: '#f7626c',
+    backgroundColor: '#d02c37',
     paddingVertical: 12,
-    paddingHorizontal: 50,
+    paddingHorizontal: 20,
     borderRadius: 30,
     elevation: 5,
   },
