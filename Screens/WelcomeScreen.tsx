@@ -51,6 +51,11 @@ const estilos = StyleSheet.create({
     color: '#fff',
     textAlign: 'center',
     marginBottom: 10,
+    shadowColor: 'black',
+    shadowOffset: { width: 0, height: 10 },
+    shadowOpacity: 0.25,
+    shadowRadius: 10,
+    elevation: 5,
   },
   subtitulo: {
     fontSize: 20,
