@@ -8,7 +8,7 @@ import Screen4 from '../Screens/Screen4';
 const Tab = createBottomTabNavigator();
 
 const BottomTabNavigator = () => (
-  <Tab.Navigator screenOptions={{ tabBarActiveTintColor: '#f7626c', tabBarInactiveTintColor: 'gray', tabBarStyle: { backgroundColor: '#000' } }}>
+  <Tab.Navigator>
     <Tab.Screen name="Screen1" component={Screen1}/>
     <Tab.Screen name="Screen2" component={Screen2}/> 
     <Tab.Screen name="Screen3" component={Screen3}/>
