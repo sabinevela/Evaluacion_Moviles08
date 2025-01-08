@@ -3,7 +3,7 @@ import { StyleSheet, Text, View, TextInput, TouchableOpacity, Alert, ImageBackgr
 import { getDatabase, ref, get, set, remove } from 'firebase/database';
 import { useNavigation } from '@react-navigation/native';
 
-export default function PantallaEditarRegistro({ route }: { route: any }) {
+export default function Screen3({ route }: { route: any }) {
   const [idRegistro, setIdRegistro] = useState(route.params?.id || '');
   const [marca, setMarca] = useState('');
   const [modelo, setModelo] = useState('');

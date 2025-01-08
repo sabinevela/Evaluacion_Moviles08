@@ -2,7 +2,7 @@ import { StyleSheet, Text, View, ImageBackground, TouchableOpacity } from 'react
 import React from 'react';
 import { useNavigation } from '@react-navigation/native';
 
-export default function PantallaBienvenida() {
+export default function WelcomeScreen() {
   const navigation = useNavigation<any>();
 
   const manejarInicio = () => {

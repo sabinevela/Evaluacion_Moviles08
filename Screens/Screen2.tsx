@@ -3,7 +3,7 @@ import { StyleSheet, Text, View, TextInput, TouchableOpacity, FlatList, Alert, I
 import { getDatabase, ref, get } from 'firebase/database';
 import Informacion from './Informacion';
 
-export default function PantallaBuscarRegistro() {
+export default function Screen2() {
   const [idRegistro, setIdRegistro] = useState<string>('');
   const [registro, setRegistro] = useState<any | null>(null);
   const [listaRegistros, setListaRegistros] = useState<any[]>([]);
