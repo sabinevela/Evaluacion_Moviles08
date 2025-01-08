@@ -138,7 +138,7 @@ const estilos = StyleSheet.create({
   contenedorInterno: {
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: 'rgba(0, 0, 0, 0.7)',
+    backgroundColor: 'rgba(148, 148, 148, 0.7)',
     borderRadius: 20,
     padding: 30,
     width: '80%',
